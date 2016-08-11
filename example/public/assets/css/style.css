@@ -1,0 +1,10 @@
+table {
+    border: 1px solid #3c3c3c;
+    -webkit-box-shadow: 1px 1px 4px 0 #D1D1D1;
+    box-shadow: 1px 1px 4px 0 #D1D1D1;
+}
+
+th {
+    background-color: #3c3c3c;
+    color: #fff;
+}

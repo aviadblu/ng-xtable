@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ngXTableExampleApp">
+<head>
+    <meta charset="UTF-8">
+    <title>ng-xtable example</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="icon" type="image/png" href="assets/img/favicon-100x100.png" sizes="100x100"/>
+    <link rel="icon" type="image/png" href="assets/img/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16"/>
+</head>
+<body ng-controller="mainCtrl as ctrl">
+<div class="container">
+    <h3>Xtable Demo</h3>
+    <xtable class="table"
+            data="ctrl.users"
+            xtable-options="{fields:[{key:'id', name: 'ID', editable: false}, {key:'fname', name: 'First Name'}, {key:'lname', name: 'Last Name'}, {key:'email', type:'email', name: 'Email'}]}">
+    </xtable>
+</div>
+</body>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/ng-xtable/dist/ng-xtable.js"></script>
+
+<script src="app.js"></script>
+</html>

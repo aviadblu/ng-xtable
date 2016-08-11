@@ -1,0 +1,32 @@
+{
+  "name": "ng-xtable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start": "node example/index",
+    "postinstall": "bower cache clean && bower install && gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aviadblu/ng-xtable.git"
+  },
+  "author": "'Aviad Blumenfeld <blumenfeld@hpe.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aviadblu/ng-xtable/issues"
+  },
+  "homepage": "https://github.com/aviadblu/ng-xtable#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp-util": "^3.0.7",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-livereload": "^3.8.1"
+  }
+}
